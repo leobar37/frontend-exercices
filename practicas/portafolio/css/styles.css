@@ -1,0 +1,38 @@
+body{
+    background: blue;
+}
+/* por clase */
+.mi_clase{
+    color: white;
+    background: black;
+    padding: 20px 10px;
+}
+.contenedor{
+     width: 1000px;
+     max-width: 1000px;
+     border: 2px solid white;
+     margin: 20px auto;
+}
+/* por id */
+#mi_di{
+  color: black;  
+}
+.caja{
+    position: relative;
+    width:200px;
+    height: 200px;
+    background: white;
+    border: 2px black solid;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.caja_2{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+

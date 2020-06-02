@@ -1,0 +1,8 @@
+$rojo  : red;
+
+body{
+    color:  red($color: #550000);
+    p{
+        background: $rojo;
+    }
+}
